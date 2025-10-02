@@ -1,12 +1,9 @@
-# CRUD Operations API
+# CRUD Operations Practice
 
-Simple REST API for User and Product management with MongoDB.
+This repository contains a simple CRUD (Create, Read, Update, Delete) application built with Express.js and MongoDB.
+It demonstrates full CRUD functionality for both Users and Products, showcasing how to create, retrieve, update, and delete records.
 
-## 🗄️ Database
-- **MongoDB** with Mongoose ODM
-- **Auto timestamps** (createdAt, updatedAt)
-- **Data validation** on all fields
-- **Unique constraints** on email/username
+This is my first CRUD project, developed by Ansan Yabesh, and it is fully functional.
 
 ## 📁 Project Structure
 ```
@@ -16,13 +13,5 @@ Simple REST API for User and Product management with MongoDB.
 ├── db/            # Database connection
 └── app.js         # Main application
 ```
-
-## ✅ Features
-- ✅ User CRUD operations
-- ✅ Product CRUD operations
-- ✅ Input validation
-- ✅ Error handling
-- ✅ MongoDB integration
-- ✅ RESTful API design
 
 **Ready to use!** Your API will save all changes to MongoDB database.
